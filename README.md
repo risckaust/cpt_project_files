@@ -36,16 +36,22 @@
 1. Ensure you have followed the instructions for installing prerequisites for the software-in-the-loop joystick flight package (see [here](https://risc.readthedocs.io/1-flight-gazebo.html))
 2. Copy the folder `cpt_sitl_pkg` to `~/catkin_ws/src/`, then build and source the catkin workspace
 3. Open a terminal shell and do the following:
+```
     roscd cpt_sitl_pkg
     cd ./build
     cmake ../
     make
+```
 For a demonstration of the **angle-measuring plugin**, an example world with a pendulum is included in `/worlds/pendulum.world`. 
 1. In a terminal shell run the following:
+```
     roscore
+```
 2. Open a new terminal shell and run the following:
+```
     roscd cpt_sitl_pkg
     gazebo ./worlds/pendulum.world --verbose
+```
 3. To see the pendulum in action, right click the model and set it to **Wireframe**
 4. In Gazebo, bring up the Topic Visualization panel with `Ctrl+T` and double-click on `/Pendulum/joint_angle` to see the published angle messages.
 5. Open a new terminal shell and run `rostopic echo /Pendulum/joint_angle` to observe the published angle messages in ROS
