@@ -58,7 +58,7 @@ A demonstration of the **customized model and world** for the cooperative payloa
 * `/models`: contains the modified 3DR Iris model, with two UAVs, a cylindrical payload and cables
 * `/scripts`: contains a Python script that sends position setpoints for each agent to MAVROS for onboard execution
 * `/worlds`: contains the example world for the angle-measuring plugin demonstration
-* `/joint_angle_plugin.cc`: C++ implementation of angle-measuring plugin
+* `/joint_angle_plugin.cc`: C++ source code for angle-measuring plugin
 * `/CMakeLists.txt`: required for CMake
 * `/package.xml`: required for ROS
 
