@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>cpt_sitl_pkg</name>
+  <version>0.0.0</version>
+  <description>Contains joint-angle-measuring plugin and custom worlds for cooperative payload transportation simulation</description>
+  <maintainer email="daw15@ic.ac.uk">Daniel Williams</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>mavros_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>gazebo_ros</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_export_depend>mavros_msgs</build_export_depend>
+  <build_export_depend>roscpp</build_export_depend>
+  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  <exec_depend>mavros_msgs</exec_depend>
+  <exec_depend>gazebo_ros</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+  </export>
+</package>
